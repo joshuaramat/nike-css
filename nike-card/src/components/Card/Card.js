@@ -1,9 +1,16 @@
 import React from 'react'
-import 
+import { CardContainer } from './Card.styled';
+import Circle from '../Circle/Circle';
+import Content from '../Content/Content';
+// import ProductImage from '../ProductImage/ProductImage.';
 
 function Card() {
   return (
-    <div>Card</div>
+    <CardContainer>
+      <Circle />
+      <Content />
+      {/* <ProductImage /> */}
+    </CardContainer>
   )
 }
 
